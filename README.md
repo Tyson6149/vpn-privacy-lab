@@ -1,4 +1,4 @@
-# vpn-privacy-lab
+# VPN-Privacy-Lab
 Hands-on cybersecurity project exploring VPNs, encryption, tunneling protocols, and internet privacy through real-world testing and analysis.
 
 # VPN-Privacy-Lab
