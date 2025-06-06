@@ -36,17 +36,7 @@ This project demonstrates the practical use of a VPN (Virtual Private Network) u
 - ✅ `fingerprint_after.png` – fingerprint after VPN  
 - Result: Browser fingerprint changed, improving anonymity
 
-### 7. **Python Script: IP Checker**
-Created a script `check_ip.py` to check the current external IP address programmatically:
-```python
-import requests
-ip = requests.get("https://api64.ipify.org?format=json").json()
-print(f"Your current IP: {ip['ip']}")
--💾 File: check_ip.py
-
----
-
-### 8. 📊 VPN Tunneling Protocol Diagram
+### 7. 📊 VPN Tunneling Protocol Diagram
 
 A visual representation of how VPN protocols like **OpenVPN**, **WireGuard**, and **IKEv2/IPSec** protect internet traffic through secure tunneling.
 
@@ -57,9 +47,7 @@ A visual representation of how VPN protocols like **OpenVPN**, **WireGuard**, an
 
 ✅ **Image File:** `vpn_tunnel_diagram.png`
 
----
-
-### 9. 🌍 Real-World VPN Use Cases
+### 8. 🌍 Real-World VPN Use Cases
 
 Saved in: `real_world_use_cases.md`
 
@@ -69,5 +57,11 @@ Saved in: `real_world_use_cases.md`
 **🎬 Bypassing Geo-Blocked Content**
 > VPNs allow users to access content restricted by region, such as watching **Netflix US** from India. By connecting to a server in the desired country, users can trick services into delivering content as if they were physically located there.
 
----
+### 9. **Python Script: IP Checker**
+Created a script `check_ip.py` to check the current external IP address programmatically:
+```python
+import requests
+ip = requests.get("https://api64.ipify.org?format=json").json()
+print(f"Your current IP: {ip['ip']}")
+-💾 File: check_ip.py
 
